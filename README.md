@@ -1,4 +1,4 @@
-# SeletivoDevJr2022
+# Vestibulare → SeletivoDevJr2022
 #### O candidato deve fazer o fork deste repositório para a sua conta no github e fazer o push de suas respostas depois que concluir. O tempo de resposta válido para este processo seletivo é de 10 dias corridos após o fork.
 
 
