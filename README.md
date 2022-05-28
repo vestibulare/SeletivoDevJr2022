@@ -3,10 +3,10 @@
 
 
 - [ ] Lógica de Programação
-- [ ] Orientação a Objetos
+- [X] Orientação a Objetos
 - [ ] Banco de Dados
 - [ ] Web: HTML, CSS & JS
-- [ ] Análise de Dados
+- [X] Análise de Dados
  
 ____
 ##### As intruções para o teste estão no link a baixo:
