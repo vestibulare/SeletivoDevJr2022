@@ -25,14 +25,32 @@ def isPrime(n: int) -> bool:
     return True
 
 
-def printPrimes(n: int) -> None:
+def getPrimes(n: int) -> list[int]:
     """
-    Take an int number as parameter and prints to the console all the prime numbers ranging from 0 to the number passed as parameter
+    Take a positive int number n as a parameter and prints to the console the first n prime numbers
     """
-    for i in range(n):
-        if isPrime(i):
-            print(i, end=" ")
+
+    primes = []
+    count = 0
+
+    while len(primes) < n:
+        if isPrime(count):
+            primes.append(count)
+        count += 1
+
+    return primes
+
+
+def printPrimes(primes: list[int]) -> None:
+    """
+    Takes a list of prime numbers and prints one by one to the console
+    """
+    for i in primes:
+        print(i, end=" ")
 
 
 if __name__ == "__main__":
-    printPrimes(10)
+    number = 10
+    primeList = getPrimes(number)
+    print(f"First {number} prime numbers:\n")
+    printPrimes(primeList)

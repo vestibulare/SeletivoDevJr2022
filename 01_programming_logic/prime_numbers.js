@@ -27,16 +27,35 @@ function isPrime(num) {
     return true
 }
 
-function printPrimes(num) {
+function getPrimes(num) {
     /*
-    Take an int number as parameter and prints to the console all the prime numbers ranging from 0 to the number passed as parameter
+    Take a positive int number n as a parameter and prints to the console the first n prime numbers
     */
 
-    for (let i = 0; i <= num; i++) {
-        if (isPrime(i)) {
-            console.log(i)
+    let primes = [];
+    count = 0;
+
+    while (primes.length < num) {
+        if (isPrime(count) === true) {
+            primes.push(count);
         }
+        count++;
+    }
+
+    return primes;
+}
+
+function printPrimes(primes) {
+    /*
+    Takes a list of prime numbers and prints one by one to the console
+    */
+
+    for (let i = 0; i < primes.length; i++) {
+        console.log(primes[i]);
     }
 }
 
-printPrimes(10)
+number = 10;
+primesList = getPrimes(number);
+console.log(`\nFirst ${number} prime numbers:\n`);
+printPrimes(primesList);
