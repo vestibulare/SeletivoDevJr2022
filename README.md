@@ -4,7 +4,7 @@
 
 - [X] Lógica de Programação
 - [X] Orientação a Objetos
-- [ ] Banco de Dados
+- [X] Banco de Dados
 - [ ] Web: HTML, CSS & JS
 - [X] Análise de Dados
  
