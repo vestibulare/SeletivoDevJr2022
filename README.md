@@ -5,7 +5,7 @@
 - [X] Lógica de Programação
 - [X] Orientação a Objetos
 - [X] Banco de Dados
-- [ ] Web: HTML, CSS & JS
+- [X] Web: HTML, CSS & JS
 - [X] Análise de Dados
  
 ____
