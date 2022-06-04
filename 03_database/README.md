@@ -1,11 +1,23 @@
-# Instructions
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-This application follows the MVC design pattern
+<h1>Laravel Phone Book</h1>
 
+This is a simple Phone Book application using:
 
-## Requirements
- - PHP 7 and above
-   - PDO
- - MySQL server
+- Laravel 8
+- Boostrap 5
 
- To test the application you must populate the database first. The data is included in the **data** folder: there are two files, one containing data to be inserted in the **usuarios** table and the other containing data to be inserted in the **numeros**.
+<hr>
+
+<h2>Deployment</h2>
+<br>
+
+<p>This application is deployed to <a href="https://www.heroku.com/" >Heroku</a></p>
+<p>You can find it <a href="#">here</a></p>
+
+<hr>
+
+<h2>Instructions</h2>
+<br>
+
+Comming soon...
