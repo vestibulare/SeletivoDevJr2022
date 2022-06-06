@@ -1,10 +1,20 @@
 function incrementarValor() {
 
-    span = document.getElementsByClassName("quantidade")[0];
+    let span = document.getElementsByClassName("quantidade")[0];
 
-    let value = span.textContent;
+    // Checks if element exists
+    if (span) {
 
-    span.textContent = Number(value) + 1;
+        // Gets current counter value
+        let value = span.textContent;
+
+        // If the current value is undeterminer, sets it to 1
+        if (isNaN(value)) {
+            span.textContent = "1";
+        } else {
+
+            // Else adds 1 to current value and updates counter
+            span.textContent = Number(value) + 1;
+        }
+    }
 }
-
-function incrementQuantity()
